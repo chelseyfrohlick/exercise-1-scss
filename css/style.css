@@ -1,0 +1,43 @@
+/*This file contains all our variables*/
+/* are placeholders for storing information that you want to reuse throughout your styles.
+You can store things like colors, font-stacks, or any css value you think you might want
+to reuse. SCSS uses the '$' symbol to declare variables. */
+.icon-eye-outline {
+  font-size: 5em;
+  text-align: center;
+  display: block;
+  color: #F08080;
+}
+.icon-eye-outline:hover {
+  background-color: #FFF;
+  color: #c1e1c9;
+}
+
+.eye {
+  background-color: #c1e1c9;
+  padding: 4em;
+}
+.eye:hover {
+  background-color: #FFF;
+  color: #c1e1c9;
+}
+
+.icon-flash {
+  font-size: 5em;
+  text-align: center;
+  display: block;
+  color: #c1e1c9;
+}
+.icon-flash:hover {
+  background-color: #FFF;
+  color: #F08080;
+}
+
+.flash {
+  background-color: #F08080;
+  padding: 4em;
+}
+.flash:hover {
+  background-color: #FFF;
+  color: #F08080;
+}

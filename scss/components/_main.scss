@@ -1,0 +1,29 @@
+.icon-eye-outline {
+	font-size: 5em;
+	text-align: center;
+	display:block;
+	color: $icon-eye;
+	@include btn($icon-flash, $background)
+}
+
+.eye {
+	background-color: $eye-background;
+	padding: 4em;
+	@include btn($icon-flash, $background);
+}
+
+.icon-flash {
+	font-size: 5em;
+	text-align: center;
+	display:block;
+	color: $icon-flash;
+	@include btn($icon-eye, $background);
+}
+
+.flash {
+	background-color: $flash-background;
+	padding: 4em;
+	@include btn($icon-eye, $background);
+}
+
+
